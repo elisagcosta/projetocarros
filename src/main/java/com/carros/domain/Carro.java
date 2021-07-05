@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import javax.annotation.Generated;
 
-@EntityScan()
+@Entity
 public class Carro {
-
+    @GeneratedValue
     @Id
     @Generated(strategy = GenerationType.AUTO)
     private Long id;
